@@ -1,7 +1,7 @@
 Name:		perl-Try-Tiny
 Summary:	Minimal try/catch with proper localization of $@
 Version:	0.12
-Release:	1%{?dist}
+Release:	2%{?dist}
 License:	MIT
 Group:		Development/Libraries
 URL:		http://search.cpan.org/dist/Try-Tiny
@@ -56,6 +56,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Try::Tiny.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.12-2
+- Mass rebuild 2013-12-27
+
 * Wed Jan  2 2013 Paul Howarth <paul@city-fan.org> - 0.12-1
 - Update to 0.12
   - Documentation fixes
